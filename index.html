@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>HOMATO</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/public/Homato.png" rel="icon">
+  <link href="assets/public/Homato.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">HOMATO</h1>
+        <span>.</span>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home<br></a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#chefs">Home-Makers</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li class="dropdown"><a href="#"><span>Plans</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Monthly</a></li>
+              <li><a href="#">Quaterly</a></li>
+              <li><a href="#">Half-Yearly</a></li>
+              <li><a href="#">Yearly</a></li>
+            </ul>
+          </li>
+    
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="index.html#book-a-table">Take Subscription</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section light-background">
+
+      <div class="container">
+        <div class="row gy-4 justify-content-center justify-content-lg-between">
+          <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center">
+            <h1 data-aos="fade-up">Enjoy Home Food<br>Away From Home</h1>
+            <p data-aos="fade-up" data-aos-delay="100">Bringing mess meals to your hostel gate</p>
+            <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+              <a href="#book-a-table" class="btn-get-started">Take Subscription</a>
+              
+            </div>
+          </div>
+          <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out">
+            <img src="assets/public/hero-img.png" class="img-fluid animated" alt="">
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Our Menu</h2>
+        <p><span>What all</span> <span class="description-title">we have?</span></p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <ul class="nav nav-tabs d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+
+          <li class="nav-item">
+            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#menu-starters">
+              <h4>Breakfast</h4>
+            </a>
+          </li><!-- End tab nav item -->
+
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-breakfast">
+              <h4>Lunch</h4>
+            </a><!-- End tab nav item -->
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-lunch">
+              <h4>Evening Snack</h4>
+            </a>
+          </li><!-- End tab nav item -->
+
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-dinner">
+              <h4>Dinner</h4>
+            </a>
+          </li><!-- End tab nav item -->
+
+        </ul>
+
+        <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="tab-pane fade active show" id="menu-starters">
+
+            <div class="tab-header text-center">
+              <h3>Breakfast</h3>
+            </div>
+
+            <div class="row gy-5">
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/public/north.jpg" class="glightbox"><img src="assets/public/north.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>NORTH INDIAN</h4>
+                <p class="ingredients">
+                  AVG MEAL PRICE
+                </p>
+                <p class="price">
+                  INR 100
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/public/south.jpg" class="glightbox"><img src="assets/public/south.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>SOUTH INDIAN</h4>
+                <p class="ingredients">
+                  AVG MEAL PRICE
+                </p>
+                <p class="price">
+                  INR 100
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/public/italian.jpg" class="glightbox"><img src="assets/public/italian.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>ITALIAN</h4>
+                <p class="ingredients">
+                  AVG MEAL PRICE
+                </p>
+                <p class="price">
+                  INR 80
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/public/chinese.jpg" class="glightbox"><img src="assets/public/chinese.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>CHINESE </h4>
+                <p class="ingredients">
+                  AVG MEAL PRICE
+                </p>
+                <p class="price">
+                  INR 150
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/public/dessert.jpg" class="glightbox"><img src="assets/public/dessert.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>DESERT</h4>
+                <p class="ingredients">
+                  AVG MEAL PRICE
+                </p>
+                <p class="price">
+                  INR 120
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/public/street style.jpg" class="glightbox"><img src="assets/public/street style.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>STREET STYLE</h4>
+                <p class="ingredients">
+                  AVG MEAL PRICE
+                </p>
+                <p class="price">
+                  INR 90
+                </p>
+              </div><!-- Menu Item -->
+
+            </div>
+          </div><!-- End BREAKFAST Menu Content -->
+
+          <div class="tab-pane fade" id="menu-breakfast">
+
+            <div class="tab-header text-center">
+              
+              <h3>LUNCH</h3>
+            </div>
+
+            <div class="row gy-5">
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/public/north.jpg" class="glightbox"><img src="assets/public/north.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>NORTH INDIAN</h4>
+                <p class="ingredients">
+                  AVG MEAL PRICE
+                </p>
+                <p class="price">
+                  INR 100
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/public/south.jpg" class="glightbox"><img src="assets/public/south.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>SOUTH INDIAN</h4>
+                <p class="ingredients">
+                  AVG MEAL PRICE
+                </p>
+                <p class="price">
+                  INR 100
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/public/italian.jpg" class="glightbox"><img src="assets/public/italian.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>ITALIAN</h4>
+                <p class="ingredients">
+                  AVG MEAL PRICE
+                </p>
+                <p class="price">
+                  INR 80
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/public/chinese.jpg" class="glightbox"><img src="assets/public/chinese.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>CHINESE </h4>
+                <p class="ingredients">
+                  AVG MEAL PRICE
+                </p>
+                <p class="price">
+                  INR 150
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/public/dessert.jpg" class="glightbox"><img src="assets/public/dessert.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>DESERT</h4>
+                <p class="ingredients">
+                  AVG MEAL PRICE
+                </p>
+                <p class="price">
+                  INR 120
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/public/street style.jpg" class="glightbox"><img src="assets/public/street style.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>STREET STYLE</h4>
+                <p class="ingredients">
+                  AVG MEAL PRICE
+                </p>
+                <p class="price">
+                  INR 90
+                </p>
+              </div><!-- Menu Item -->
+
+            </div>
+        
+          </div><!-- End LUNCH Menu Content -->
+
+          <div class="tab-pane fade" id="menu-lunch">
+
+            <div class="tab-header text-center">
+              
+              <h3>Evening Snack</h3>
+            </div>
+
+            <div class="row gy-5">
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/public/north.jpg" class="glightbox"><img src="assets/public/north.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>NORTH INDIAN</h4>
+                <p class="ingredients">
+                  AVG MEAL PRICE
+                </p>
+                <p class="price">
+                  INR 100
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/public/south.jpg" class="glightbox"><img src="assets/public/south.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>SOUTH INDIAN</h4>
+                <p class="ingredients">
+                  AVG MEAL PRICE
+                </p>
+                <p class="price">
+                  INR 100
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/public/italian.jpg" class="glightbox"><img src="assets/public/italian.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>ITALIAN</h4>
+                <p class="ingredients">
+                  AVG MEAL PRICE
+                </p>
+                <p class="price">
+                  INR 80
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/public/chinese.jpg" class="glightbox"><img src="assets/public/chinese.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>CHINESE </h4>
+                <p class="ingredients">
+                  AVG MEAL PRICE
+                </p>
+                <p class="price">
+                  INR 150
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/public/dessert.jpg" class="glightbox"><img src="assets/public/dessert.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>DESERT</h4>
+                <p class="ingredients">
+                  AVG MEAL PRICE
+                </p>
+                <p class="price">
+                  INR 120
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/public/street style.jpg" class="glightbox"><img src="assets/public/street style.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>STREET STYLE</h4>
+                <p class="ingredients">
+                  AVG MEAL PRICE
+                </p>
+                <p class="price">
+                  INR 90
+                </p>
+              </div><!-- Menu Item -->
+
+            </div>
+        
+          </div><!-- End evening snack Menu Content -->
+
+          <div class="tab-pane fade" id="menu-dinner">
+
+            <div class="tab-header text-center">
+              
+              <h3>Dinner</h3>
+            </div>
+
+            <div class="row gy-5">
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/public/north.jpg" class="glightbox"><img src="assets/public/north.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>NORTH INDIAN</h4>
+                <p class="ingredients">
+                  AVG MEAL PRICE
+                </p>
+                <p class="price">
+                  INR 100
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/public/south.jpg" class="glightbox"><img src="assets/public/south.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>SOUTH INDIAN</h4>
+                <p class="ingredients">
+                  AVG MEAL PRICE
+                </p>
+                <p class="price">
+                  INR 100
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/public/italian.jpg" class="glightbox"><img src="assets/public/italian.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>ITALIAN</h4>
+                <p class="ingredients">
+                  AVG MEAL PRICE
+                </p>
+                <p class="price">
+                  INR 80
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/public/chinese.jpg" class="glightbox"><img src="assets/public/chinese.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>CHINESE </h4>
+                <p class="ingredients">
+                  AVG MEAL PRICE
+                </p>
+                <p class="price">
+                  INR 150
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/public/dessert.jpg" class="glightbox"><img src="assets/public/dessert.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>DESERT</h4>
+                <p class="ingredients">
+                  AVG MEAL PRICE
+                </p>
+                <p class="price">
+                  INR 120
+                </p>
+              </div><!-- Menu Item -->
+
+              <div class="col-lg-4 menu-item">
+                <a href="assets/public/street style.jpg" class="glightbox"><img src="assets/public/street style.jpg" class="menu-img img-fluid" alt=""></a>
+                <h4>STREET STYLE</h4>
+                <p class="ingredients">
+                  AVG MEAL PRICE
+                </p>
+                <p class="price">
+                  INR 90
+                </p>
+              </div><!-- Menu Item -->
+
+            </div>
+        
+          </div><!-- End Dinner Menu Content -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Menu Section -->
+
+
+    <!-- home-makers -->
+    <section id="chefs" class="chefs section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>HOME-MAKERS</h2>
+        <p><span>Featured</span> <span class="description-title">Home-restraunts<br></span></p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/public/chefs-1.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Bawarchi</h4>
+                <span>Mess Services</span>
+                <p>Bawarchi Mess Services offers delicious, affordable home-style meals made with quality ingredients. Catering to students and individuals, it provides daily meal plans and special dietary options, ensuring tasty and nutritious food. Convenient and reliable, Bawarchi Mess delivers satisfying meals for every need.</p>
+              </div>
+            </div>
+          </div><!-- End Chef Team Member -->
+
+          <div class="col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/public/chefs-2.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Grover's</h4>
+                <span>In-house bakery</span>
+                <p>Passionate about both baking and cooking, we craft delicious pastries, breads, and desserts while ensuring students have access to nutritious, flavorful meals. Our bakery is not just a place for treats but an integral part of the mess service, providing a wholesome experience.</p>
+              </div>
+            </div>
+          </div><!-- End Chef Team Member -->
+
+          <div class="col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/public/chefs-3.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Bunty Kapoor</h4>
+                <span>Cook</span>
+                <p>I’m Bunty, a homemaker who prepares and delivers wholesome, home-cooked tiffin meals to students. I focus on providing nutritious, affordable, and delicious food, ensuring students enjoy fresh, comforting meals daily.</p>
+              </div>
+            </div>
+          </div><!-- End Chef Team Member -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Chefs Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+      <section id="about" data-stellar-background-ratio="0.5">
+        <div class="container">
+             <div class="row">
+
+                  <div class="col-md-6 col-sm-12">
+                       <div class="about-info">
+                            <div class="section-title wow fadeInUp" data-wow-delay="0.2s">
+                                 <h4>Connecting Hostel Students with Home-Style Meals</h4>
+                                 <h2>A Story of Convenience, Quality, and Community</h2>
+                            </div>
+
+                            <div class="wow fadeInUp" data-wow-delay="0.4s">
+                                 <p>The primary aim of this project is to develop a user-friendly platform that connects homemakers, mess owners, and hostel students, providing a convenient way for students to access affordable and nutritious meals. Through this platform, students will be able to order regular meals or subscribe to flexible meal plans tailored to their needs, all from a wide selection of meal providers.</p>
+                                 <p>Homemakers and mess owners will be able to expand their customer base by offering a variety of meal plans, including daily, weekly, or special dietary packages. The platform will allow for easy browsing and ordering, enabling students to choose from different types of cuisines and meal options, ensuring they have access to healthy, home-style food without the hassle of cooking or the limitations of traditional hostel dining options.
+                                 </p>
+                                 <p>
+                                  This project aims to streamline the food ordering process for hostel students while empowering local homemakers and mess owners by providing them with a tech-driven solution to manage orders and deliveries efficiently. The platform will create a sustainable ecosystem that benefits all parties involved, offering students a reliable source of affordable meals and helping meal providers grow their businesses. Through this initiative, we aim to improve the overall food experience for hostel students while supporting local food vendors and promoting healthy eating habits.</p>
+                                  <p> 
+                                    Ultimately, this project aims to create a more accessible, efficient, and sustainable food ecosystem that benefits both meal providers and students, while fostering community connections and promoting healthy eating habits in hostel environments.Thank You.
+                                  </p>
+                            </div>
+                       </div>
+                  </div>
+
+                  <div class="col-md-6 col-sm-12">
+                       <div class="wow fadeInUp about-image" data-wow-delay="0.6s">
+                            <img src="assets/public/about-2.jpg" class="img-responsive" alt="">
+                       </div>
+                  </div>
+                  
+             </div>
+        </div>
+   </section>
+
+
+    </section><!-- /About Section -->
+
+    <!-- Why Us Section -->
+    <section id="why-us" class="why-us section light-background">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="why-box">
+              <h3>Why Choose US?</h3>
+              <p>
+                We deliver fresh, home-cooked meals directly to hostel rooms, saving students time and effort while ensuring they have access to nutritious, balanced food. With customizable meal plans, a variety of dishes, and a focus on high-quality ingredients, we provide meals that are both delicious and tailored to individual preferences. Additionally, by supporting local mess owners and homemakers, we create a sense of community, allowing students to enjoy comforting, home-style food while supporting small businesses.
+              </p>
+            </div>
+          </div><!-- End Why Box -->
+
+          <div class="col-lg-8 d-flex align-items-stretch">
+            <div class="row gy-4" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="col-xl-4">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                  <i class="bi bi-clipboard-data"></i>
+                  <h4>EASY MEAL PLANS</h4>
+                  <p>Various types of plans are offered to choose from.</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-xl-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                  <i class="bi bi-gem"></i>
+                  <h4>GOOD QUALITY FOOD</h4>
+                  <p>Since, food is not prepared in bulk the quality is retained.</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-xl-4" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                  <i class="bi bi-inboxes"></i>
+                  <h4>SUPPORTS SMALL BUSINESS</h4>
+                  <p>Creating a community which supports local food vendors.</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Why Us Section -->
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats section dark-background">
+
+      <img src="assets/public/stats-bg.jpg" alt="" data-aos="fade-in">
+
+      <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Home-makers</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="50" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Mess-Owners</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="500" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Orders</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Hours of Support</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Stats Section -->
+
+
+    <!-- subscription -->
+    <section id="book-a-table" class="book-a-table section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Take Subscription</h2>
+        <p><span>Book Regular</span> <span class="description-title">Meals With Us<br></span></p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row g-0" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-4 reservation-img" style="background-image: url(assets/public/reservation.jpg);"></div>
+
+          <div class="col-lg-8 d-flex align-items-center reservation-form-bg" data-aos="fade-up" data-aos-delay="200">
+            <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form">
+              <div class="row gy-4">
+                <div class="col-lg-4 col-md-6">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="">
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone" required="">
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <input type="date" name="date" class="form-control" id="date" placeholder="Date" required="">
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <input type="time" class="form-control" name="time" id="time" placeholder="Time" required="">
+                </div>
+          
+              </div>
+
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
+              </div>
+
+              <div class="text-center mt-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your subscription request was sent. We will call back or send an Email to confirm your details. Thank you!</div>
+                <button type="submit">Take Subscription</button>
+              </div>
+            </form>
+          </div><!-- End subscription Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- subscription section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p><span>Need Help?</span> <span class="description-title">Contact Us</span></p>
+      </div><!-- End Section Title -->
+
+      
+
+        <div class="row gy-4">
+
+          <div class="col-md-6">
+            <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
+              <i class="icon bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h3>Address</h3>
+                <p>INDIA</p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-md-6">
+            <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="300">
+              <i class="icon bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>Email</h3>
+                <p>manyad.1509@gmail.com</p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+        
+
+        </div>
+
+        <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="500">
+          <div class="row gy-4">
+
+            <div class="col-md-6">
+              <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+            </div>
+
+            <div class="col-md-6 ">
+              <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+            </div>
+
+            <div class="col-md-12">
+              <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+            </div>
+
+            <div class="col-md-12">
+              <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+            </div>
+
+            <div class="col-md-12 text-center">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message has been sent. Thank you!</div>
+
+              <button type="submit">Send Message</button>
+            </div>
+
+          </div>
+        </form><!-- End Contact Form -->
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+
+    <div class="container">
+      <div class="row gy-3">
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-geo-alt icon"></i>
+          <div class="address">
+            <h4>Address</h4>
+            <p>New Delhi</p>
+            <p>Delhi, India</p>
+            <p></p>
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-telephone icon"></i>
+          <div>
+            <h4>Contact</h4>
+            <p>
+              <strong>Email:</strong> <span>manyad.1509@gmail.com</span><br>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-clock icon"></i>
+          <div>
+            <h4>Availability</h4>
+            <p>
+              <strong>PAN INDIA</strong> 
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <h4>Follow Me</h4>
+          <div class="social-links d-flex">
+            <a href="https://x.com/manyaaa_is?t=iOPybDnUxpcF9bE2fi5_qw&s=08" class="twitter"><i class="bi bi-twitter-x"></i></a>
+            <a href="https://www.instagram.com/manya_dhingra15?igsh=cDY4aGRxazJqOTFn" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/manya-dhingra-0821b3287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">HOMATO</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        Designed by <a>Manya</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
